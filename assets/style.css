@@ -234,6 +234,7 @@ main {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
+
 }
 
 #slideshow {
@@ -425,4 +426,10 @@ footer {
 .tabcontent {
   font-family: 'Questrial', sans-serif;
   text-align: center;
+}
+/********RESPONSIVE*************/
+@media screen and ( max-width:750px ){
+  main {
+    flex-wrap: wrap;
+  }
 }
