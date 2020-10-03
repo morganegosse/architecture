@@ -317,6 +317,30 @@ main {
 
 }
 
+#maps {
+  border: solid;
+  position: relative;
+  display: inline-block;
+  border-color: black;
+  margin: 40px;
+  border-radius: 10px;
+  width: 95%;
+  height: 500px;
+}
+
+video{
+  display:flex;
+  border: solid;
+  flex-wrap: wrap;
+  border-color: black;
+  border-radius: 10px;
+  text-align: center;
+  width:480px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:35px;
+}
+
 
 /*********RESEAUX SOCIAUX / FORMULAIRE / MAPS*********/
 
@@ -392,13 +416,6 @@ input[type=submit]:hover {
   background-color: white;
 }
 
-#maps {
-  border: solid;
-  display: inline-block;
-  border-color: black;
-  margin: 60px;
-  border-radius: 10px;
-}
 
 
 /***************FOOTER***************/
@@ -409,6 +426,7 @@ footer {
   border-style: solid wheat;
   text-align: center;
   font-family: 'Questrial', sans-serif;
+  margin: 10px;
 }
 
 .tablinks {
@@ -432,3 +450,4 @@ footer {
     flex-wrap: wrap;
   }
 }
+
